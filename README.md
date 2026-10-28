@@ -1,73 +1,37 @@
-# IKB21403 - Vulnerability Analysis
-W1 | Understanding Threats vs Vulnerabilities
+## Week 1 - Threats vs Vulnerabilities
 
+| Aspect | ⚠️ Threat | 🔓 Vulnerability |
+|:---|:---|:---|
+| **Definition** | A potential cause of harm to a system, network, or data. | A weakness that could be exploited by a threat. |
+| **Nature** | Represents a potential danger or harmful event. | Represents an existing weakness or security gap. |
+| **Source** | Can originate from humans, technology, or natural events. | Can exist in software, hardware, configurations, or human processes. |
+| **Role** | May exploit a vulnerability to cause harm. | May provide an opportunity for a threat to succeed. |
+| **Examples** | Phishing, ransomware, malicious insiders, and DDoS attacks. | Weak passwords, outdated software, misconfigurations, and poor access controls. |
+| **Identification** | Threat intelligence, security monitoring, and threat modelling. | Vulnerability scanning, security audits, and penetration testing. |
+| **Security Response** | Prevent, detect, and respond to potential attacks. | Identify, assess, prioritise, and remediate weaknesses. |
+| **Impact** | May result in data breaches, financial loss, or service disruption. | May increase the likelihood or severity of a successful attack. |
 
-# 1. Introduction
-Threats and vulnerabilities are important concepts in cybersecurity. Although they are closely related, each represents a different aspect of security assessment and understanding their relationship helps organizations identify, prioritize and mitigate security risks.
+---
 
-# 2. What Is a Threat?
-A threat is any entity, event or condition capable of causing damage to information systems, networks, applications or digital assets. 
+## 🧪 Real-World Scenarios
 
-Examples:
-1. Phishing attacks
-2. Malware and ransomware
-3. Hackers attempting unauthorized access
-4. Insider threats
-5. Denial-of-Service (DoS) attacks
+| Scenario | ⚠️ Threat | 🔓 Vulnerability | 🛡️ Security Measure |
+|:---|:---|:---|:---|
+| **1. Phishing Attack** | An attacker sends a fake email impersonating HR. | Lack of employee phishing awareness. | Security awareness training and MFA. |
+| **2. Weak Password** | An attacker attempts to guess login credentials. | Weak or easily guessed passwords. | Strong passwords and MFA. |
+| **3. Outdated Software** | An attacker exploits a known software flaw. | Missing security patches. | Regular software updates and patch management. |
+| **4. SQL Injection** | An attacker submits malicious SQL input. | Improper input validation and unsafe database queries. | Parameterised queries and secure coding practices. |
+| **5. Insider Threat** | An employee intentionally steals confidential data. | Excessive access privileges and inadequate monitoring. | Least privilege and activity monitoring. |
+| **6. Malware Infection** | Malicious software attempts to infect a device. | Unpatched software or insecure configurations. | Endpoint protection and regular updates. |
 
-# 3. What Is a Vulnerability?
-A vulnerability is a weakness in a system, application, network or security process that could be exploited by a threat.
+---
 
-Examples:
-1. Weak passwords
-2. Outdated software
-3. Unpatched operating systems
-4. Improper access controls
-5. Poor input validation
+## 💡 Key Takeaway
 
-# 4. Difference Between Threats and Vulnerabilities
-| Threats | Vulnerability |
-|---------|---------------|
-| A potential cause of harm | A weakness that could be exploited |
-| May exploit a weakness | Creates an opportunity for exploitation |
-| Example: A phishing attacker | Example: Lack of phishing awareness |
-| Response: Detect and respond to attacks | Response: Identify and fix weaknesses |
+> **Threat = Potential Danger**
+>
+> **Vulnerability = Security Weakness**
+>
+> **Risk = The potential for harm when a threat exploits a vulnerability.**
 
-# 5. Real-World Examples
-# Example 1: Phishing Email
-1. Threat: An attacker sends a fake email pretending to be from HR
-2.  Vulnerability: An employee cannot recognize phishing emails.
-3.   Possible impact: The employee reveals their login credentials.
-
-# Example 2: Outdated Software
-1. Threat: An attacker attempts to exploit a known software flaw.
-2. Vulnerability: The system has not received an important security patch.
-2. Possible impact: Unauthorized access to the system.
-
-# Example 3: Weak Password 
-1. Threat: An attacker attempts to guess a user's password.
-2.  Vulnerability: The user has an easily guessed password.
-3.   Possible impact: Unauthorized account access.
-
-# 6. Security Measures
-Security measures are controls used to prevent, detect or reduce security risks.
-
-Examples: 
-1. Use strong, unique passwords and multi-factor authentication (MFA).
-2. Update software and apply security patches.
-3. Provide cybersecurity awareness training.
-4. Configure firewalls and access controls.
-5. Monitor system logs.
-6. Perform vulnerability assessments regularly.
-
-# 7. Relationship Between Threats and Vulnerabilities.
-A threat can exploit a vulnerability to cause harm. However, a vulnerability does not always result in an attack, and a threat does not always succeed.
-
-Example:
-- Threat: An attacker
-- Vulnerability: A weak password
-- Security measure: Strong passwords and MFA
-- Potential impact: Unauthorized account access
-
-# Conclusion
-Threats and vulnerabilities are different but closely related cybersecurity concepts. A threat is a potential cause of harm, while a vulnerability is a weakness that may be exploited. Identifying vulnerabilities and applying suitable security measures can help reduce.
+Understanding the differences between threats and vulnerabilities is essential for identifying security risks and implementing effective cybersecurity measures.
